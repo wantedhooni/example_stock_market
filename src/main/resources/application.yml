@@ -30,7 +30,3 @@ spring:
     livereload:
       enabled: true
 
-#  flyway:
-#    enabled: false
-#    baseline-on-migrate: false
-#    locations: "classpath:db/migration"
