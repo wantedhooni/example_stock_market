@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @OpenAPIDefinition(
-        info = @Info(title = "카카오페이증권 과제",
-                description = "카카오페이증권 과제 API 명세",
+        info = @Info(title = "실시간 Stock 랭킹",
+                description = "실시간 Stock 랭킹 API 명세",
                 version = "v1"))
 @Configuration
 public class SwaggerConfig {
@@ -22,7 +22,7 @@ public class SwaggerConfig {
         };
 
         return GroupedOpenApi.builder()
-                .group("과제 API")
+                .group("실시간 Stock 랭킹 API")
                 .pathsToMatch(paths)
                 .build();
     }
